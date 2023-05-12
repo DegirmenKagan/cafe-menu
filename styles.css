@@ -1,6 +1,7 @@
 body {
   background-image: url(cafe.jpg);
   font-family: sans-serif;
+  padding: 20px;
 }
 
 h1,
@@ -26,6 +27,10 @@ hr {
   height: 2px;
   background-color: brown;
   border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
 }
 
 .established {
@@ -54,4 +59,29 @@ hr {
 
 .item p {
   display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/* FOOTHER */
+
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
 }
